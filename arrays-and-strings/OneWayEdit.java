@@ -2,6 +2,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * One Away: There are three types of edits that can be performed on strings: insert a character,
+ * remove a character, or replace a character. Given two strings, write a function to check if they are
+ * one edit (or zero edits) away.
+ * EXAMPLE
+ * pale, ple -> true
+ * pales, pale -> true
+ * pale, bale -> true
+ * pale, bae -> false
+ * 
  * Time Complexity: O(n), where n is length of bigger string
  */
 public class OneWayEdit {
