@@ -2,7 +2,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-public class Test {
+public class MaxOccurance {
 
     public static void main(String[] args) {
         System.out.println(maxOccurrenceCharacter("removeCharacter"));
