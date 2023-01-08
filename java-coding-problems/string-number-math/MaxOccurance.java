@@ -14,7 +14,7 @@ public class Test {
         return str.chars()
                 .filter(ch -> !Character.isWhitespace(ch))
                 .mapToObj(ch -> (char) ch)
-                .collect(Collectors.agroupingBy(ch -> ch, Collectors.counting()))
+                .collect(Collectors.groupingBy(ch -> ch, Collectors.counting()))
                 .entrySet()
                 .stream()
                 .max(Map.Entry.comparingByValue())
